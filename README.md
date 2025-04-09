@@ -31,12 +31,12 @@ nano Dockerfile
 FROM debian:unstable
 
 # Install required packages including libgomp1
-RUN apt update && apt install -y \
-    curl \
-    unzip \
-    libc6 \
-    libgomp1 \
-    nano
+RUN apt-get update && \
+    apt-get install -y libgomp1 curl ca-certificates python3 python3-venv libblas3 liblapack3 && \
+    python3 -m venv /app/venv && \
+    /app/venv/bin/pip install --no-cache-dir requests && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
 
 # Set working directory
 WORKDIR /app
