@@ -86,5 +86,13 @@ chmod +x linux.sh && ./linux.sh
 ![image](https://github.com/user-attachments/assets/6bbba626-c70b-471b-b9ad-378072250b21)
 
 
-- Note: you cant choose any, It depends on how much RAM is left on your system(VPS)
+- Note: you cant choose any, It depends on how much RAM is left on your system(VPS) but for me i choose 1.
+
+## OUTPUT
+
+![image](https://github.com/user-attachments/assets/8dc793d5-dc1e-4bb8-86e4-14c888574111)
+
+
+## DONE
+
 
