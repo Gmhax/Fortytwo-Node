@@ -43,53 +43,8 @@ chmod +x linux.sh && ./linux.sh
 
 
 
-╔═══════════════════════════════════════════════════════════════════════════╗
-║ 0. ⦿  AUTO-SELECT - Optimal Configuration                                 ║
-║    Let the system determine the best model for your hardware.             ║
-║    Balanced for performance and capabilities.                             ║
-╠═══════════════════════════════════════════════════════════════════════════╣
-║ 1. ◉  NOUMENAL PYLON - General Knowledge                                  ║
-║    Versatile multi-domain intelligence core with balanced capabilities.   ║
-║    Model: Llama-3.2-3B-Instruct (2.2GB VRAM)                              ║
-╠═══════════════════════════════════════════════════════════════════════════╣
-║ 2. ⬢  TELEOLOGY PYLON - Advanced Reasoning                                ║
-║    High-precision logical analysis matrix optimized for problem-solving.  ║
-║    Model: INTELLECT-1-Instruct (6.5GB VRAM)                               ║
-╠═══════════════════════════════════════════════════════════════════════════╣
-║ 3. ⌬  MACHINIC PYLON - Programming & Technical                            ║
-║    Specialized system for code synthesis and framework construction.      ║
-║    Model: Qwen2.5-Coder-7B-Instruct (4.8GB VRAM)                          ║
-╠═══════════════════════════════════════════════════════════════════════════╣
-║ 4. ⎔  SCHOLASTIC PYLON - Academic Knowledge                               ║
-║    Advanced data integration and research synthesis protocol.             ║
-║    Model: Ministral-8B-Instruct-2410 (5.2GB VRAM)                         ║
-╠═══════════════════════════════════════════════════════════════════════════╣
-║ 5. ⌖  LOGOTOPOLOGY PYLON - Language & Writing                             ║
-║    Enhanced natural language and communication protocol interface.        ║
-║    Model: Qwen2.5-7B-Instruct (4.8GB VRAM)                                ║
-╠═══════════════════════════════════════════════════════════════════════════╣
-║ 6. ⏃  SAPIENCE PYLON - Problem Solving & Logical Reasoning                ║
-║    High-level reasoning, mathematical problem-solving                     ║
-║         and competitive coding.                                           ║
-║    Model: QwQ-32B (21GB VRAM)                                             ║
-╠═══════════════════════════════════════════════════════════════════════════╣
-║ 7. ✶   NUMERICON PYLON - Mathematical Intelligence                        ║
-║    Optimized for symbolic reasoning, step-by-step math solutions          ║
-║         and logic-based inference.                                        ║
-║    Model: Phi-4-14B (9.1GB VRAM)                                          ║
-╠═══════════════════════════════════════════════════════════════════════════╣
-║ 8. ⬡   POLYGLOSSIA PYLON - Multilingual Understanding                     ║
-║    Balanced intelligence with high-quality cross-lingual comprehension,   ║
-║         translation and multilingual reasoning.                           ║
-║    Model: Gemma-3 4B (3.3GB VRAM)                                         ║
-╠═══════════════════════════════════════════════════════════════════════════╣
-║ 9. ⨳  OLYMPIAD PYLON - Competitive Programming & Algorithms               ║
-║    Optimized for competitive coding, excelling in algorithmic challenges  ║
-║          and CodeForces-style programming tasks.                          ║
-║    Model: OlympicCoder 7B (4.8GB VRAM )                                   ║
-╠═══════════════════════════════════════════════════════════════════════════╣
-║ 10. ⎋  CUSTOM - Advanced Configuration                                    ║
-╠═══════════════════════════════════════════════════════════════════════════╣
+![image](https://github.com/user-attachments/assets/6bbba626-c70b-471b-b9ad-378072250b21)
+
 
 - Note: you cant choouse any, It depends on how much RAM is left on your system(VPS)
 
