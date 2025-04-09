@@ -8,21 +8,48 @@ Fortytwo is a decentralized AI protocol using swarm intelligence to overcome cen
 
 ## Installation
 
-## Update dependencies 
+## If Docker is already installed, skip this step.
 ```bash
-sudo apt update && sudo apt install curl unzip git -y
+sudo apt update
+sudo apt install -y docker.io
+sudo systemctl enable --now docker
+
 ```
 
 ## Navigate directory
 ```bash
-mkdir -p ~/Fortytwo && cd ~/Fortytwo
+mkdir ~/capsule-docker
+cd ~/capsule-docker
 ```
 
-## Install Package
+## Create Dockerfile
 ```bash
-curl -L -o fortytwo-console-app.zip https://github.com/Fortytwo-Network/fortytwo-console-app/archive/refs/heads/main.zip
-unzip fortytwo-console-app.zip
-cd fortytwo-console-app-main
+nano Dockerfile
+```
+- Paste this code:
+```bash
+FROM debian:unstable
+
+# Install dependencies
+RUN apt update && apt install -y curl unzip libc6 nano
+
+# Set working directory
+WORKDIR /app
+
+# Download and extract Fortytwo
+RUN curl -L -o fortytwo-console-app.zip https://github.com/Fortytwo-Network/fortytwo-console-app/archive/refs/heads/main.zip && \
+    unzip fortytwo-console-app.zip
+
+# Set final working directory
+WORKDIR /app/fortytwo-console-app-main
+
+```
+
+## Build & Run:
+```bash
+docker build -t fortytwo-capsule .
+docker run -it --name fortytwo-dev fortytwo-capsule /bin/bash
+
 ```
 
 ## Execute
@@ -36,6 +63,8 @@ chmod +x linux.sh && ./linux.sh
 
 - You selected: Create a new identity with an invite code
 - Enter your invite code: Check email
+
+![image](https://github.com/user-attachments/assets/f92d6bbb-07b5-4d58-a0f7-1b105ebfb0ea)
 
 
 - Every AI node in the Fortytwo Network has unique strengths.
