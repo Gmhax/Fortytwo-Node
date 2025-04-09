@@ -101,5 +101,5 @@ chmod +x linux.sh && ./linux.sh
 ║ 10. ⎋  CUSTOM - Advanced Configuration                                    ║
 ╠═══════════════════════════════════════════════════════════════════════════╣
 
-- I choose option 9 because it's not a heavyweight model.
+- Note: you cant choouse any, It depends on how much RAM is left on your system(VPS)
 
