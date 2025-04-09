@@ -86,5 +86,5 @@ chmod +x linux.sh && ./linux.sh
 ![image](https://github.com/user-attachments/assets/6bbba626-c70b-471b-b9ad-378072250b21)
 
 
-- Note: you cant choouse any, It depends on how much RAM is left on your system(VPS)
+- Note: you cant choose any, It depends on how much RAM is left on your system(VPS)
 
