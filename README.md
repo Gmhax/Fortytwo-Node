@@ -30,18 +30,29 @@ nano Dockerfile
 ```bash
 FROM debian:unstable
 
-# Install dependencies
-RUN apt update && apt install -y curl unzip libc6 nano
+# Install required packages including libgomp1
+RUN apt update && apt install -y \
+    curl \
+    unzip \
+    libc6 \
+    libgomp1 \
+    nano
 
 # Set working directory
 WORKDIR /app
 
-# Download and extract Fortytwo
+# Download and extract Fortytwo app
 RUN curl -L -o fortytwo-console-app.zip https://github.com/Fortytwo-Network/fortytwo-console-app/archive/refs/heads/main.zip && \
     unzip fortytwo-console-app.zip
 
-# Set final working directory
+# Set working directory to the app folder
 WORKDIR /app/fortytwo-console-app-main
+
+# Copy run command only, activation code will be added manually later
+RUN chmod +x linux.sh
+
+# Default to bash so you can enter and run linux.sh manually with activation code
+CMD ["/bin/bash"]
 
 ```
 
