@@ -30,17 +30,17 @@ cd fortytwo-console-app-main
 chmod +x linux.sh && ./linux.sh
 ```
 
-* ═════════════════════════════════════════════════════════
-* ║  Every node requires a secure blockchain identity.      ║ 
-* ║  Choose one of the following options:                   ║ 
-* ║                                                         ║ 
-* ║  1. Create a new identity with an invite code           ║
-* ║     Recommended for new nodes                           ║ 
-* ║                                                         ║ 
-* ║  2. Recover an existing identity with recovery phrase   ║ 
-* ║     Use this if you're restoring a previous node        ║ 
-* ║                                                         ║
-* ╚═════════════════════════════════════════════════════════╝ 
+** ═════════════════════════════════════════════════════════
+** ║  Every node requires a secure blockchain identity.      ║ 
+** ║  Choose one of the following options:                   ║ 
+** ║                                                         ║ 
+** ║  1. Create a new identity with an invite code           ║
+** ║     Recommended for new nodes                           ║ 
+** ║                                                         ║ 
+** ║  2. Recover an existing identity with recovery phrase   ║ 
+** ║     Use this if you're restoring a previous node        ║ 
+** ║                                                         ║
+** ╚═════════════════════════════════════════════════════════╝ 
 
 - Select option [1-2]: 1
 
