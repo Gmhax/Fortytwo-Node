@@ -4,7 +4,7 @@ Fortytwo is a decentralized AI protocol using swarm intelligence to overcome cen
 ![image](https://github.com/user-attachments/assets/ab96dfc1-c658-4b7c-b7be-ecb1181df5e9)
 
 - Note: Before running this node, you need an activation code.
-- https://tally.so/r/wQzVQk
+- If you haven't filled up yet: https://tally.so/r/wQzVQk
 
 ## Installation
 
