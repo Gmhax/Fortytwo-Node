@@ -90,6 +90,9 @@ chmod +x linux.sh && ./linux.sh
 
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/3dfea4ed-e567-467a-a5f8-5c4031c92a09)
+
+
 
 
 
